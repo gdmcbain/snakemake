@@ -1,6 +1,25 @@
 # Changelog
 
 
+## [9.1.0](https://github.com/snakemake/snakemake/compare/v9.0.1...v9.1.0) (2025-03-19)
+
+
+### Features
+
+* adapt to changes in storage plugin interface, now passing the logger to the storage provider ([#3460](https://github.com/snakemake/snakemake/issues/3460)) ([ac34f11](https://github.com/snakemake/snakemake/commit/ac34f11e704730c0bf0b9a89adcfb8909fb0baf0))
+* introduce ability to annotate access pattern (will e.g. be usable for optimizations in storage plugins) ([#3459](https://github.com/snakemake/snakemake/issues/3459)) ([6e5e65b](https://github.com/snakemake/snakemake/commit/6e5e65b4184b842df1519469f62e847fc52c2d20))
+
+
+### Bug Fixes
+
+* only warn upon positional parameter overwrite with "use rule"  in case the number of positional parameters changes ([#3457](https://github.com/snakemake/snakemake/issues/3457)) ([ec18f98](https://github.com/snakemake/snakemake/commit/ec18f98fd94e6133980b4575f932be841e3d2dbf))
+* setup logger for non-executing subcommands ([de5c7a3](https://github.com/snakemake/snakemake/commit/de5c7a35a5d439c073194cf8c30984463180a471))
+
+
+### Documentation
+
+* fix profiles linking, add Sphinx rst syntax infos ([#3453](https://github.com/snakemake/snakemake/issues/3453)) ([bbb0284](https://github.com/snakemake/snakemake/commit/bbb0284347351b46e8f05679a54aa1e262402e1d))
+
 ## [9.0.1](https://github.com/snakemake/snakemake/compare/v9.0.0...v9.0.1) (2025-03-14)
 
 
